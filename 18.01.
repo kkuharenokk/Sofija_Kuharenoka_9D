@@ -1,0 +1,77 @@
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int age;
+//	cin >> age;
+//	if (age >= 0 && age <= 100) { cout << "ok"; }
+//	else cout << "wrong";
+//	string name;
+//	cin >> name;
+//	if (name == "sofija" || name == "Sofija") { cout << "ok"; }
+//		else cout << "wrong";
+//	}
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int catage, dogage;
+//	cin >> catage >> dogage; 
+//	if (catage > 0 && catage < 20) { cout << "cat is ok"; }
+//	else cout << "cat is too old";
+//	if (dogage > 0 && dogage < 20) { cout << "dog is ok"; }
+//	else cout << "dog is too old";
+//	}
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int atz, age, aug;
+//	cin >> atz >> age >> aug;
+//	if (atz >= 0 && atz <= 10) { cout << "ok"; }
+//	else cout << "tu esi stulbs";
+//
+//	if (age >= 7 && age <= 18) { cout << "ok"; }
+//	else cout << "wrong";
+//
+//	if (aug >= 150 && aug <= 200) { cout << "ok"; }
+//	else cout << "tu esi vai zirafe, vai karliks";
+//}
+
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int age = 14;
+//	string parole = "a1", p1;
+//	cin >> p1;
+//	if (p1 == parole) { cout << age; }
+//	else cout << "access denied";
+//}
+//
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int age = 14;
+//	string parole = "a1", p1;
+//	cout << "__________" << endl;
+//	cin >> p1;
+//	if (p1 == parole) { cout << age; }
+//	else cout << "access denied";
+//}
+
+#include <iostream>
+using namespace std;
+int main() {
+	int age = 14; 
+	cout << "__________" << endl;
+	cout << "login:" << endl;
+		string login = "abc", xyz;
+		cout << "password:" << endl;
+		string password = "123", p1;
+	cout << "__________" << endl;
+	if (xyz == login) { cout << age; }
+	else cout << "wrong input!";
+	cin >> p1;
+	if (p1 == password) { cout << age; }
+	else cout << "wrong input!";
+}
